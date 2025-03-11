@@ -1,0 +1,5 @@
+@if (errorSignal()) {
+  <p>Error: {{ errorSignal() }}</p>
+} @else {
+  <p>Seconds left to deadline: {{ secondsLeft() }}</p>
+}
